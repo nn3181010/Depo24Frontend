@@ -34,7 +34,7 @@ function App() {
           ))}
         </div>
         <input
-          type="text"
+          type='text'
           value={input}
           onChange={e => setInput(e.target.value)}
         />
